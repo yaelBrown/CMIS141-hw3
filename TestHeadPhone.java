@@ -17,11 +17,12 @@ public class TestHeadPhone {
 		HeadPhone hp1 = new HeadPhone(1, false, "Sennheiser", "Black", "HD-555");
 		HeadPhone hp2 = new HeadPhone(2, true, "Sony", "Black", "MD-515");
 		HeadPhone hp3 = new HeadPhone(3, false, "Corsair", "Black", "HyperX");
+		HeadPhone hp4 = new HeadPhone();
 		
-  	
 		// ToString method
 		System.out.println(hp1.toString());
 		System.out.println(hp2.toString());
 		System.out.println(hp3.toString());
+		System.out.println(hp4.toString());
 	}
 }

@@ -49,10 +49,8 @@ public class HeadPhone {
     }
 
     // Setter methods for all data fields
-    public void setVolume(int vol) { // Sets volume and validates its either LOW, MEDIUM, or HIGH
-        if (vol == LOW || vol == MEDIUM || vol == HIGH) {
-            vol = volume;
-        } 
+    public void changeVolume(int vol) { 
+        vol = volume; 
     }
 
     public void setPluggedIn(boolean plugged) {
